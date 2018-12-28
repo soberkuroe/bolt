@@ -1,6 +1,19 @@
 body{
   font-family: 'Raleway', sans-serif;
 }
+.txt-input{
+font-family: 'Lato', sans-serif;
+}
+a{
+  text-decoration: none;
+  display: inline-block;
+}
+.wid-input{
+  width: 1100px;
+  margin: 0 auto;
+}
+
+
 .header{
   background: #ffffff;
   position: fixed;
@@ -10,6 +23,7 @@ body{
   z-index: 10;
 }
 .header-inner{
+  padding: 15px 0 15px;
   width: 1100px;
   display: flex;
   align-items: center;
@@ -18,8 +32,6 @@ body{
 }
 .header-icon-bolt{
   color: #696969;
-  margin-top: 15px;
-  margin-bottom: 15px;
 }
 .header-icon-contact{
   padding: 14px 12px;
@@ -27,93 +39,81 @@ body{
   background-color: #74cfae;
   color: #ffffff;
 }
-a{
-  text-decoration: none;
-  display: inline-block;
-}
-main{
+
+.main{
   margin-top: 78px;
 }
+
 .headline{
-  width: 100%;
+  padding: 250px 0 250px;
   text-align: center;
   background-color: #f2f2f2;
-  display: inline-block;
 }
-.headline h1{
+.headline-theme{
   color: #74cfae;
   font-size: 90px;
   font-weight: 700;
-  margin-top: 250px;
   margin-bottom: 20px;
 }
-.headline p{
+.headline-txt{
   font-size: 30px;
   color: #c0c0c0;
-  margin-bottom: 250px;
 }
-.bolt-section{
+
+.bolt-wrap{
   width: 100%;
   display: block;
   margin: 0 auto;
 }
-.what-we-can-do{
+.can-do{
   background-color:#74cfae;
   width: 100%;
   padding-top: 50px;
 }
-.what-we-can-do-inner{
-  width: 1100px;
-  margin: 0 auto;
+.can-do-inner{
   color: #ffffff;
   overflow: auto;
   text-align: center;
   display: flex;
   justify-content: space-around;
 }
-.what-we-can-do-text{
-  width: 750px;
+.can-do-tip{
+  width: 670px;
   box-sizing: border-box;
 }
 .iphone-img{
   vertical-align: bottom;
 }
-.what-we-can-do-inner h2{
+.can-do-theme{
   font-size: 24px;
   margin-bottom: 35px;
 }
-.what-we-can-do-inner p{
+.can-do-txt{
   font-size: 20px;
   line-height: 30px;
 }
 .product{
   background-color: #f2f2f2;
   text-align: center;
-  padding-top: 60px;
-  padding-bottom: 70px;
-  width: 100%;
+  padding: 60px 0 70px;
 }
-.product-inner{
-  width: 1100px;
-  margin: 0 auto;
+.product-theme{
+  font-size: 24px;
+  color: #333;
 }
 .product-container{
   margin-top: 40px;
   font-size: 0px;
 }
-.product-container a{
+.img-link{
   margin-left: 100px;
   margin-top: 80px;
 }
-.product-container a:nth-child(3n+1){
+.img-link:nth-child(3n+1){
   margin-left: 0;
 }
-.product-container a:nth-child(-n+3){
+.img-link:nth-child(-n+3){
   margin-top: 0;
-}
-.product h2{
-  font-size: 24px;
-  color: #333;
 }
 .product-img{
   opacity: 0.7;
@@ -126,7 +126,7 @@ main{
   margin-top: 90px;
 }
 .product-info{
-  width: 530px;
+  width: 460px;
   color: #333;
   display: inline-block;
   line-height: 20px;
@@ -143,6 +143,7 @@ main{
 .product-email:hover{
   color: #333;
 }
+
 .skill{
   background-color: #4e4e4e;
   text-align: center;
@@ -150,11 +151,7 @@ main{
   padding-top: 70px;
   padding-bottom: 100px;
 }
-.skill-inner{
-  width: 1100px;
-  margin: 0 auto;
-}
-.skill h2{
+.skill-theme{
   color: #ffffff;
   font-size: 24px;
   padding-bottom: 50px;
@@ -169,28 +166,24 @@ main{
 .skill-img-box:first-child{
   margin-left: 0px;
 }
-.skill p{
+.skill-index{
   margin-top: 15px;
   font-size: 16px;
   color: #ffffff;
 }
+
 .navi{
   background-color: #f2f2f2;
   width: 100%;
   padding-top: 200px;
   padding-bottom: 200px;
 }
-.navi-inner{
-  width: 1100px;
-  margin: 0 auto;
-}
 .navi-body{
   text-align: center;
 }
 .navi-box{
   background-color: #f2f2f2;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding: 30px 0 30px;
   width: 185px;
   display: inline-block;
   text-align: center;
@@ -203,15 +196,14 @@ main{
 .navi-icon{
   color: #74cfae;
 }
+
 .footer{
   background-color: #74cfae;
-  width: 100%;
   margin: 0 auto;
 }
 .footer-inner{
   width: 1100px;
-  padding-top: 20px;
-  padding-bottom: 25px;
+  padding: 20px 0 25px;
   text-align: right;
 }
 .footer-ad{
