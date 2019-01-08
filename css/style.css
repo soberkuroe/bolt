@@ -8,14 +8,14 @@ a{
   text-decoration: none;
   display: inline-block;
 }
-.wid-input{
+
+.inner{
   width: 1100px;
   margin: 0 auto;
 }
 
-
 .header{
-  background: #ffffff;
+  background: #fff;
   position: fixed;
   width: 100%;
   top: 0px;
@@ -24,11 +24,9 @@ a{
 }
 .header-inner{
   padding: 15px 0 15px;
-  width: 1100px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 0 auto;
 }
 .header-icon-bolt{
   color: #696969;
@@ -37,7 +35,7 @@ a{
   padding: 14px 12px;
   font-size: 12px;
   background-color: #74cfae;
-  color: #ffffff;
+  color: #fff;
 }
 
 .main{
@@ -60,23 +58,20 @@ a{
   color: #c0c0c0;
 }
 
-.bolt-wrap{
-  width: 100%;
-  display: block;
-  margin: 0 auto;
-}
+
 .can-do{
   background-color:#74cfae;
   width: 100%;
   padding-top: 50px;
 }
+
 .can-do-inner{
-  color: #ffffff;
-  overflow: auto;
+  color: #fff;
   text-align: center;
   display: flex;
   justify-content: space-around;
 }
+
 .can-do-tip{
   width: 670px;
   box-sizing: border-box;
@@ -92,6 +87,7 @@ a{
   font-size: 20px;
   line-height: 30px;
 }
+
 .product{
   background-color: #f2f2f2;
   text-align: center;
@@ -136,7 +132,7 @@ a{
   font-size: 12px;
   padding: 14px 20px;
   background-color: #74cfae;
-  color: #ffffff;
+  color: #fff;
   margin-left: 90px;
   transition: 0.3s;
 }
@@ -152,7 +148,7 @@ a{
   padding-bottom: 100px;
 }
 .skill-theme{
-  color: #ffffff;
+  color: #fff;
   font-size: 24px;
   padding-bottom: 50px;
 }
@@ -169,7 +165,7 @@ a{
 .skill-index{
   margin-top: 15px;
   font-size: 16px;
-  color: #ffffff;
+  color: #fff;
 }
 
 .navi{
@@ -191,7 +187,7 @@ a{
   cursor: pointer;
 }
 .navi-box:hover{
-  background-color: #ffffff;
+  background-color: #fff;
 }
 .navi-icon{
   color: #74cfae;
@@ -199,13 +195,11 @@ a{
 
 .footer{
   background-color: #74cfae;
-  margin: 0 auto;
 }
 .footer-inner{
-  width: 1100px;
   padding: 20px 0 25px;
   text-align: right;
 }
 .footer-ad{
-  color: #ffffff;
+  color: #fff;
 }
